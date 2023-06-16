@@ -1,0 +1,15 @@
+<h3 style="text-align: center;">Child</h3>
+<table class="center">
+    <tr>
+       <th>NAME</th>
+       <th>AGE</th>
+       <th>CONTACT</th>
+       <th>UPDATION</th>
+    </tr>
+    <tr *ngFor="let data of getChildVal">
+        <td>{{data.Name}}</td>
+        <td>{{data.Age}}</td>
+        <td>{{data.Contact}}</td>
+        <td><button>Edit</button><button>Delete</button></td>
+    </tr>
+ </table>
